@@ -19,6 +19,9 @@ import { runStage } from './utils/runStage';
 export const run = async (
     dataCollector = createDataCollector<JsonReport>()
 ) => {
+    console.log(
+        '<><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<, starting workflow'
+    );
     const isInPR = context.eventName === 'pull_request';
 
     const [isInitialized, options] = await runStage(
