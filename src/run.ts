@@ -20,7 +20,7 @@ export const run = async (
     dataCollector = createDataCollector<JsonReport>()
 ) => {
     console.log(
-        '<><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<, starting workflow'
+        '<><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<............. starting workflow'
     );
     const isInPR = context.eventName === 'pull_request';
 
