@@ -27,6 +27,11 @@ export const createReport = (
 
     const { errors, data } = dataCollector.get();
     const [headReport, baseReport] = data;
+
+    console.log('>>>>>>>>>>>> comparing head report and base report');
+    console.log('>>>>>>>>>>>> head report', headReport);
+    console.log('>>>>>>>>>>>> head report', baseReport);
+
     const formattedErrors = formatErrors(errors);
 
     const coverage = formatCoverage(headReport, baseReport, undefined);

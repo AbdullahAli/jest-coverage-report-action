@@ -47,7 +47,7 @@ export const run = async (
         }
     );
 
-    console.log('>>>>>>>>>>>>>>>>>>>headCoverage', headCoverage);
+    // console.log('>>>>>>>>>>>>>>>>>>>headCoverage', headCoverage);
 
     if (headCoverage) {
         dataCollector.add(headCoverage);
@@ -86,7 +86,7 @@ export const run = async (
         }
     );
 
-    console.log('>>>>>>>>>>>>>>>>>>>base coverage', baseCoverage);
+    // console.log('>>>>>>>>>>>>>>>>>>>base coverage', baseCoverage);
 
     if (baseCoverage) {
         dataCollector.add(baseCoverage);
