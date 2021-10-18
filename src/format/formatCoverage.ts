@@ -15,7 +15,17 @@ export const formatCoverage = (
         );
 
         console.log(
+            '>>>>>>>>>>>>>>>>>>> base report summary',
+            parseSummary(baseReport!)
+        );
+
+        console.log(
             '>>>>>>>>>>>>>>>>>>> head report details',
+            parseDetails(headReport)
+        );
+
+        console.log(
+            '>>>>>>>>>>>>>>>>>>> base report details',
             parseDetails(baseReport!)
         );
 
