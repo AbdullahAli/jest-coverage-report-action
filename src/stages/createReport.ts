@@ -30,7 +30,7 @@ export const createReport = (
 
     console.log('>>>>>>>>>>>> comparing head report and base report');
     console.log('>>>>>>>>>>>> head report', headReport);
-    console.log('>>>>>>>>>>>> head report', baseReport);
+    console.log('>>>>>>>>>>>> base report', baseReport);
 
     const formattedErrors = formatErrors(errors);
 
